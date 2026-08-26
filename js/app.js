@@ -18,7 +18,9 @@ function calcIdade(ano=2026){
 }
 
 calcIdade();
+/* var ´vaza` a variavel dentro do escopo da mesma funçao
 alert(`Pode beber: ${podebeber}`)
+*/
 /*
 alert(`Fora da função : Idade ${idade}`); 
 Erro pois a vaiavel let nao existe fora do escopo dela 
