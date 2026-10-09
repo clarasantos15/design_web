@@ -51,7 +51,7 @@ function remover(i){
     let item = amigos[i]; //[nome, nasc, whatsapp]
     let check = confirm(`Deseja realmente excluir ${item[0]}?`);
     if (check == true){
-        amigos.splice(i,1); //splice
+        amigos.splice(i,1); //splice (posicao inicial, quantidade de item pra remover)
     }
     exibirLista();
 } 
